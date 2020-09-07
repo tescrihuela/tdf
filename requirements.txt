@@ -5,4 +5,4 @@ dash_table
 flask
 gunicorn
 requests
-panda
+pandas
