@@ -5,4 +5,3 @@ dash_table
 flask
 requests
 panda
-pprint
