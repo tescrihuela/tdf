@@ -6,11 +6,6 @@ from data import coureurs
 
 file = 'ranking.csv'
 
-proxies = {
-    'http': 'http://pfrie-std.proxy.e2.rie.gouv.fr:8080',
-    'https': 'http://pfrie-std.proxy.e2.rie.gouv.fr:8080'
-}
-
 class_general = u"https://tourdefrance2020.fr/classement-general/"
 class_montagne = u"https://tourdefrance2020.fr/classement-du-meilleur-grimpeur/"
 class_points = u"https://tourdefrance2020.fr/classement-par-points/"
@@ -26,7 +21,7 @@ fantasy = {
 
 
 def get_ranking(url,type):
-	requete = requests.get(url,proxies=proxies)
+	requete = requests.get(url)
 	page = requete.content
 	soup = BeautifulSoup(page,features="html.parser")
 	table = soup.find_all('figure', attrs={'class':'wp-block-table'})[-1].find('table').find('tbody')
