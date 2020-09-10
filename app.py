@@ -33,6 +33,7 @@ app.layout = html.Div(
                 columns=[
                     {"name": i, "id": i, "deletable": True, "selectable": True} for i in df.columns
                 ],
+                # tooltip={'Fantasy Score': {'type': 'text', 'value': 'Points obtenus lors de la prochaine étape si aucun changement aux classements'}},
                 style_header={
                     'backgroundColor': 'rgb(230, 230, 230)',
                     'fontWeight': 'bold'
