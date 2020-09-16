@@ -44,10 +44,6 @@ coureurs = {
 		'equipe': 'Total Direct Energie',
 		'cout': 8,
 	},
-	'Bauke Mollema': {
-		'equipe': 'Trek-Segafredo',
-		'cout': 16,
-	},
 	'Ben Hermans': {
 		'equipe': 'Israël Start-Up Nation',
 		'cout': 12,
@@ -136,21 +132,9 @@ coureurs = {
 		'equipe': 'UAE Emirates',
 		'cout': 13,
 	},
-	'David Gaudu': {
-		'equipe': 'Groupama-FDJ',
-		'cout': 14,
-	},
-	'Davide Formolo': {
-		'equipe': 'UAE Emirates',
-		'cout': 13,
-	},
 	'Dayer Quintana': {
 		'equipe': 'Arkea-Samsic',
 		'cout': 8,
-	},
-	'Domenico Pozzovivo': {
-		'equipe': 'NTT',
-		'cout': 11,
 	},
 	'Dries Devenyns': {
 		'equipe': 'Deceuninck-Quick-Step',
@@ -216,10 +200,6 @@ coureurs = {
 		'equipe': 'CCC',
 		'cout': 16,
 	},
-	'Gregor Mühlberger': {
-		'equipe': 'Bora-Hansgrohe',
-		'cout': 11,
-	},
 	'Guillaume Martin': {
 		'equipe': 'Cofidis',
 		'cout': 13,
@@ -244,17 +224,9 @@ coureurs = {
 		'equipe': 'Astana',
 		'cout': 6,
 	},
-	'Ilnur Zakarin': {
-		'equipe': 'CCC',
-		'cout': 15,
-	},
 	'Imanol Erviti': {
 		'equipe': 'Movistar',
 		'cout': 6,
-	},
-	'Ion Izagirre': {
-		'equipe': 'Astana',
-		'cout': 14,
 	},
 	'Jack Bauer': {
 		'equipe': 'Mitchelton-Scott',
@@ -307,10 +279,6 @@ coureurs = {
 	'Julian Alaphilippe': {
 		'equipe': 'Deceuninck-Quick-Step',
 		'cout': 19,
-	},
-	'Jérôme Cousin': {
-		'equipe': 'Total Direct Energie',
-		'cout': 6,
 	},
 	'Kasper Asgreen': {
 		'equipe': 'Deceuninck-Quick-Step',
@@ -496,10 +464,6 @@ coureurs = {
 		'equipe': 'Bora-Hansgroh',
 		'cout': 19,
 	},
-	'Pierre Latour': {
-		'equipe': 'AG2R La Mondiale',
-		'cout': 12,
-	},
 	'Pierre Rolland': {
 		'equipe': 'B&B Hôtels-Vital Concept',
 		'cout': 10,
@@ -536,10 +500,6 @@ coureurs = {
 		'equipe': 'Lotto-Soudal',
 		'cout': 6,
 	},
-	'Romain Bardet': {
-		'equipe': 'AG2R La Mondiale',
-		'cout': 16,
-	},
 	'Romain Sicard': {
 		'equipe': 'Total Direct Energie',
 		'cout': 6,
@@ -564,17 +524,9 @@ coureurs = {
 		'equipe': 'Deceuninck-Quick-Step',
 		'cout': 20,
 	},
-	'Sam Bewley': {
-		'equipe': 'Mitchelton-Scott',
-		'cout': 6,
-	},
 	'Sepp Kuss': {
 		'equipe': 'Jumbo-Visma',
 		'cout': 14,
-	},
-	'Sergio Higuita': {
-		'equipe': 'EF Pro Cycling',
-		'cout': 16,
 	},
 	'Simon Geschke': {
 		'equipe': 'CCC',

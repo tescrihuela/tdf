@@ -77,5 +77,5 @@ for i in range(1,22):
 compute_points()
 write_csv(file)
 
-# pprint(coureurs)
+pprint(coureurs)
 
