@@ -152,10 +152,6 @@ coureurs = {
 		'equipe': 'Trek-Segafredo',
 		'cout': 6,
 	},
-	'Egan Bernal': {
-		'equipe': 'Ineos Grenadiers',
-		'cout': 21,
-	},
 	'Elia Viviani': {
 		'equipe': 'Cofidis',
 		'cout': 18,
@@ -539,10 +535,6 @@ coureurs = {
 	'Sonny Colbrelli': {
 		'equipe': 'Bahrain-McLaren',
 		'cout': 15,
-	},
-	'Stefan Küng': {
-		'equipe': 'Groupama-FDJ',
-		'cout': 9,
 	},
 	'Sébastien Reichenbach': {
 		'equipe': 'Groupama-FDJ',
