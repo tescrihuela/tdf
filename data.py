@@ -1,315 +1,551 @@
 
 coureurs = {
-	'Adam Yates': {
-		'equipe': 'Mitchelton-Scott',                               
-		'cout': 16,
+	'Adrien Petit': {
+		'equipe': 'TotalEnergies',
+		'cout': 6,
+	},
+	'Aime De Gendt': {
+		'equipe': 'Intermarché-Wanty-Gobert',
+		'cout': 6,
+	},
+	'Alan Boileau': {
+		'equipe': 'B&B Hôtels KTM',
+		'cout': 8,
 	},
 	'Alberto Bettiol': {
-		'equipe': 'EF Pro Cycling',                               
+		'equipe': 'EF Education-Nippo',                               
 		'cout': 11,
 	},
 	'Alejandro Valverde': {
 		'equipe': 'Movistar',                             
-		'cout': 17,
+		'cout': 16,
 	},
-	'Alessandro De Marchi': {
-		'equipe': 'CCC',
-		'cout': 8,
+	'Alex Aranburu': {
+		'equipe': 'Astana',                               
+		'cout': 13,
+	},
+	'Alex Kirsch': {
+		'equipe': 'Trek-Segafredo',                               
+		'cout': 6,
+	},
+	'Alexander Cataford': {
+		'equipe': 'Israël Start-Up Nation',                               
+		'cout': 6,
 	},
 	'Alexander Kristoff': {
 		'equipe': 'UAE Emirates',
-		'cout': 17,
+		'cout': 18,
+	},
+	'Alexandre Geniez': {
+		'equipe': 'TotalEnergies',                               
+		'cout': 6,
 	},
 	'Alexey Lutsenko': {
 		'equipe': 'Astana',
-		'cout': 14,
+		'cout': 15,
 	},
 	'Alexis Vuillermoz': {
-		'equipe': 'AG2R La Mondiale',
-		'cout': 9,
+		'equipe': 'TotalEnergies',
+		'cout': 8,
 	},
 	'Amund Grøndahl Jansen': {
-		'equipe': 'Jumbo-Visma',
+		'equipe': 'BikeExchange',
 		'cout': 6,
 	},
-	'Andrey Amador': {
-		'equipe': 'Ineos Grenadiers',
-		'cout': 9,
+	'Andreas Kron': {
+		'equipe': 'Lotto-Soudal',
+		'cout': 10,
 	},
 	'André Greipel': {
 		'equipe': 'Israël Start-Up Nation',
-		'cout': 11,
+		'cout': 12,
+	},
+	'Anthony Delaplace': {
+		'equipe': 'Arkea-Samsic',
+		'cout': 6,
+	},
+	'Anthony Perez': {
+		'equipe': 'Cofidis',
+		'cout': 7,
 	},
 	'Anthony Turgis': {
-		'equipe': 'Total Direct Energie',
+		'equipe': 'TotalEnergies',
+		'cout': 9,
+	},
+	'Arnaud Demare': {
+		'equipe': 'Groupama-FDJ',
+		'cout': 17,
+	},
+	'Aurelien Paret Peintre': {
+		'equipe': 'AG2R Citroen',
+		'cout': 11,
+	},
+	'Baptiste Planckaert': {
+		'equipe': 'Intermarché-Wanty-Gobert',
 		'cout': 8,
 	},
-	'Ben Hermans': {
-		'equipe': 'Israël Start-Up Nation',
-		'cout': 12,
+	'Bauke Mollema': {
+		'equipe': 'Trek-Segafredo',
+		'cout': 15,
+	},
+	'Ben O Connor': {
+		'equipe': 'AG2R Citroen',
+		'cout': 15,
 	},
 	'Benoît Cosnefroy': {
-		'equipe': 'AG2R La Mondiale',
-		'cout': 8,
+		'equipe': 'AG2R Citroen',
+		'cout': 11,
 	},
 	'Bob Jungels': {
-		'equipe': 'Deceuninck-Quick-Step',
-		'cout': 12,
+		'equipe': 'AG2R Citroen',
+		'cout': 11,
+	},
+	'Boy Van Poppel': {
+		'equipe': 'Intermarché-Wanty-Gobert',
+		'cout': 7,
+	},
+	'Brandon McNulty': {
+		'equipe': 'UAE Emirates',
+		'cout': 14,
+	},
+	'Brent Van Moer': {
+		'equipe': 'Lotto-Soudal',
+		'cout': 8,
+	},
+	'Bruno Armirail': {
+		'equipe': 'Groupama-FDJ',
+		'cout': 7,
 	},
 	'Bryan Coquard': {
-		'equipe': 'B&B Hôtels-Vital Concept',
+		'equipe': 'B&B Hôtels KTM',
 		'cout': 13,
 	},
 	'Caleb Ewan': {
 		'equipe': 'Lotto-Soudal',
 		'cout': 20,
 	},
+	'Carlos Barbero': {
+		'equipe': 'Qhubeka ASSOS',
+		'cout': 7,
+	},
 	'Carlos Verona': {
 		'equipe': 'Movistar',
 		'cout': 8,
 	},
-	'Casper Pederse': {
-		'equipe': 'Sunweb',
+	'Casper Pedersen': {
+		'equipe': 'DSM',
 		'cout': 6,
 	},
 	'Cees Bol': {
-		'equipe': 'Sunweb',
-		'cout': 10,
+		'equipe': 'DSM',
+		'cout': 15,
+	},
+	'Chad Haga': {
+		'equipe': 'DSM',
+		'cout': 6,
+	},
+	'Chris Froome': {
+		'equipe': 'Israël Start-Up Nation',
+		'cout': 9,
 	},
 	'Christophe Laporte': {
 		'equipe': 'Cofidis',
 		'cout': 13,
 	},
-	'Christopher Juul Jensen': {
-		'equipe': 'Mitchelton-Scott',
-		'cout': 7,
+	'Christopher Jensen': {
+		'equipe': 'BikeExchange',
+		'cout': 6,
+	},
+	'Cristian Rodriguez': {
+		'equipe': 'TotalEnergies',
+		'cout': 12,
 	},
 	'Clément Russo': {
 		'equipe': 'Arkea-Samsic',
-		'cout': 6,
-	},
-	'Clément Venturini': {
-		'equipe': 'AG2R La Mondiale',
-		'cout': 9,
+		'cout': 7,
 	},
 	'Connor Swift': {
 		'equipe': 'Arkea-Samsic',
-		'cout': 8,
+		'cout': 10,
 	},
 	'Cyril Barthe': {
-		'equipe': 'B&B Hôtels-Vital Concept',
+		'equipe': 'B&B Hôtels KTM',
 		'cout': 8,
 	},
 	'Cyril Gautier': {
-		'equipe': 'B&B Hôtels-Vital Concept',
-		'cout': 8,
-	},
-	'Damiano Caruso': {
-		'equipe': 'Bahrain-McLaren',
-		'cout': 12,
-	},
-	'Dan Martin': {
-		'equipe': 'Israël Start-Up Nation',
-		'cout': 16,
-	},
-	'Daniel Martinez': {
-		'equipe': 'EF Pro Cycling',
-		'cout': 19,
-	},
-	'Daniel Oss': {
-		'equipe': 'Bora-Hansgrohe',
+		'equipe': 'B&B Hôtels KTM',
 		'cout': 6,
 	},
-	'Dario Cataldo': {
-		'equipe': 'Movistar',
+	'Cyril Lemoine': {
+		'equipe': 'B&B Hôtels KTM',
+		'cout': 6,
+	},
+	'Damien Howson': {
+		'equipe': 'BikeExchange',
 		'cout': 9,
 	},
-	'Daryl Impey': {
-		'equipe': 'Mitchelton-Scott',
+	'Damien Touze': {
+		'equipe': 'AG2R Citroen',
+		'cout': 8,
+	},
+	'Daniel Martin': {
+		'equipe': 'Israël Start-Up Nation',
+		'cout': 15,
+	},
+	'Daniel McClay': {
+		'equipe': 'Arkea-Samsic',
+		'cout': 14,
+	},
+	'Daniel Oss': {
+		'equipe': 'Bora-Hansgrohee',
+		'cout': 6,
+	},
+	'Danny Van Poppel': {
+		'equipe': 'Intermarché-Wanty-Gobert',
 		'cout': 11,
 	},
 	'David De La Cruz': {
 		'equipe': 'UAE Emirates',
+		'cout': 12,
+	},
+	'David Gaudu': {
+		'equipe': 'Groupama-FDJ',
+		'cout': 17,
+	},
+	'Davide Ballerini': {
+		'equipe': 'Deceuninck-Quick-Step',
 		'cout': 13,
 	},
-	'Dayer Quintana': {
-		'equipe': 'Arkea-Samsic',
-		'cout': 8,
+	'Davide Formolo': {
+		'equipe': 'UAE Emirates',
+		'cout': 13,
+	},
+	'Dion Smith': {
+		'equipe': 'BikeExchange',
+		'cout': 9,
+	},
+	'Dimitri Claeys': {
+		'equipe': 'Qhubeka ASSOS',
+		'cout': 6,
+	},
+	'Dmitriy Gruzdev': {
+		'equipe': 'Astana',
+		'cout': 6,
+	},
+	'Domenico Pozzovivo': {
+		'equipe': 'Qhubeka ASSOS',
+		'cout': 15,
+	},
+	'Dorian Godon': {
+		'equipe': 'AG2R Citroen',
+		'cout': 6,
 	},
 	'Dries Devenyns': {
 		'equipe': 'Deceuninck-Quick-Step',
-		'cout': 6,
+		'cout': 7,
+	},
+	'Dylan Teuns': {
+		'equipe': 'Bahrain Victorious',
+		'cout': 12,
 	},
 	'Dylan Van Baarle': {
 		'equipe': 'Ineos Grenadiers',
-		'cout': 12,
+		'cout': 11,
 	},
 	'Edvald Boasson Hagen': {
-		'equipe': 'NTT',
-		'cout': 13,
+		'equipe': 'TotalEnergies',
+		'cout': 10,
 	},
 	'Edward Theuns': {
 		'equipe': 'Trek-Segafredo',
 		'cout': 6,
 	},
-	'Elia Viviani': {
-		'equipe': 'Cofidis',
-		'cout': 18,
+	'Elie Gesbert': {
+		'equipe': 'Arkea-Samsic',
+		'cout': 10,
+	},
+	'Eliot Lietaer': {
+		'equipe': 'B&B Hôtels KTM',
+		'cout': 9,
 	},
 	'Emanuel Buchmann': {
-		'equipe': 'Bora-Hansgrohe',
-		'cout': 18,
+		'equipe': 'Bora-Hansgrohee',
+		'cout': 16,
 	},
 	'Enric Mas': {
 		'equipe': 'Movistar',
-		'cout': 14,
+		'cout': 16,
 	},
 	'Esteban Chaves': {
-		'equipe': 'Mitchelton-Scott',
+		'equipe': 'BikeExchange',
+		'cout': 13,
+	},
+	'Fabien Doubey': {
+		'equipe': 'TotalEnergies',
+		'cout': 9,
+	},
+	'Fabio Aru': {
+		'equipe': 'Qhubeka ASSOS',
+		'cout': 10,
+	},
+	'Fabio Jakobsen': {
+		'equipe': 'Deceuninck-Quick-Step',
 		'cout': 14,
 	},
-	'Fabien Grellier': {
-		'equipe': 'Total Direct Energie',
-		'cout': 6,
+	'Fernando Gaviria Rendon': {
+		'equipe': 'UAE Emirates',
+		'cout': 17,
 	},
-	'Felix Großschartner': {
-		'equipe': 'Bora-Hansgrohe',
-		'cout': 12,
+	'Franck Bonnamour': {
+		'equipe': 'B&B Hôtels KTM',
+		'cout': 8,
+	},
+	'Fred Wright': {
+		'equipe': 'Bahrain Victorious',
+		'cout': 6,
 	},
 	'Frederick Frison': {
 		'equipe': 'Lotto-Soudal',
 		'cout': 6,
 	},
-	'Geoffrey Soupe': {
-		'equipe': 'Total Direct Energie',
+	'George Zimmermann': {
+		'equipe': 'Intermarché-Wanty-Gobert',
 		'cout': 6,
 	},
-	'George Bennett': {
-		'equipe': 'Jumbo-Visma',
-		'cout': 12,
-	},
-	'Gorka Izagirre': {
-		'equipe': 'Astana',
-		'cout': 11,
+	'Geraint Thomas': {
+		'equipe': 'Ineos Grenadiers',
+		'cout': 20,
 	},
 	'Greg Van Avermaet': {
-		'equipe': 'CCC',
-		'cout': 16,
+		'equipe': 'AG2R Citroen',
+		'cout': 14,
+	},
+	'Guillaume Boivin': {
+		'equipe': 'Israël Start-Up Nation',
+		'cout': 6,
 	},
 	'Guillaume Martin': {
 		'equipe': 'Cofidis',
-		'cout': 13,
+		'cout': 15,
 	},
-	'Guy Niv': {
-		'equipe': 'Israël Start-Up Nation',
-		'cout': 6,
+	'Harrisson Sweeny': {
+		'equipe': 'Lotto-Soudal',
+		'cout': 7,
 	},
-	'Harold Tejada': {
-		'equipe': 'Astana',
-		'cout': 10,
-	},
-	'Hugh Carthy': {
-		'equipe': 'EF Pro Cycling',
-		'cout': 11,
-	},
-	'Hugo Hofstetter': {
-		'equipe': 'Israël Start-Up Nation',
-		'cout': 10,
+	'Hector Carretero': {
+		'equipe': 'Movistar',
+		'cout': 6	,
 	},
 	'Hugo Houle': {
 		'equipe': 'Astana',
 		'cout': 6,
 	},
+	'Ide Schelling': {
+		'equipe': 'Bora-Hansgrohe',
+		'cout': 9,
+	},
+	'Ignatas Konovalovas': {
+		'equipe': 'Groupama-FDJ',
+		'cout': 6,
+	},
+	'Ion Izaguirre': {
+		'equipe': 'Astana',
+		'cout': 15,
+	},
 	'Imanol Erviti': {
 		'equipe': 'Movistar',
 		'cout': 6,
 	},
-	'Jack Bauer': {
-		'equipe': 'Mitchelton-Scott',
+	'Ivan Garcia': {
+		'equipe': 'Movistar',
+		'cout': 13,
+	},
+	'Ivo Oliveira': {
+		'equipe': 'UAE Emirates',
 		'cout': 6,
 	},
-	'Jan Hirt': {
-		'equipe': 'CCC',
+	'Jack Bauer': {
+		'equipe': 'BikeExchange',
+		'cout': 6,
+	},
+	'Jack Haig': {
+		'equipe': 'Bahrain Victorious',
+		'cout': 17,
+	},
+	'Jacopo Guarnieri': {
+		'equipe': 'Groupama-FDJ',
+		'cout': 7,
+	},
+	'Jakob Fuglsang': {
+		'equipe': 'Astana',
+		'cout': 20,
+	},
+	'Jan Bakelants': {
+		'equipe': 'Intermarché-Wanty-Gobert',
 		'cout': 7,
 	},
 	'Jan Polanc': {
 		'equipe': 'UAE Emirates',
-		'cout': 10,
+		'cout': 9,
+	},
+	'Jasha Sutterlin': {
+		'equipe': 'DSM',
+		'cout': 6,
 	},
 	'Jasper De Buyst': {
 		'equipe': 'Lotto-Soudal',
-		'cout': 7,
+		'cout': 8,
+	},
+	'Jasper Philipsen': {
+		'equipe': 'Alpecin-Fenix',
+		'cout': 15,
 	},
 	'Jasper Stuyven': {
 		'equipe': 'Trek-Segafredo',
 		'cout': 13,
 	},
-	'Jens Debusschere': {
-		'equipe': 'B&B Hôtels-Vital Concept',
-		'cout': 10,
+	'Jean-Pierre Drucker': {
+		'equipe': 'Cofidis',
+		'cout': 8,
+	},
+	'Jelle Wallays': {
+		'equipe': 'Cofidis',
+		'cout': 6,
 	},
 	'Jens Keukeleire': {
-		'equipe': 'EF Pro Cycling',
-		'cout': 9,
+		'equipe': 'EF Education-Nippo',
+		'cout': 7,
+	},
+	'Jérémy Lecroq': {
+		'equipe': 'B&B Hôtels KTM',
+		'cout': 6,
 	},
 	'Jesus Herrada': {
 		'equipe': 'Cofidis',
-		'cout': 12,
+		'cout': 11,
+	},
+	'John Degenkolb': {
+		'equipe': 'Lotto-Soudal',
+		'cout': 13,
 	},
 	'Jonas Koch': {
-		'equipe': 'CCC',
+		'equipe': 'Intermarché-Wanty-Gobert',
 		'cout': 6,
+	},
+	'Jonas Rickaert': {
+		'equipe': 'Alpecin-Fenix',
+		'cout': 6,
+	},
+	'Jonas Rutsch': {
+		'equipe': 'EF Education-Nippo',
+		'cout': 7,
+	},
+	'Jonas Vingegaard': {
+		'equipe': 'Jumbo-Visma',
+		'cout': 12,
 	},
 	'Jonathan Castroviejo': {
 		'equipe': 'Ineos Grenadiers',
-		'cout': 9,
+		'cout': 11,
+	},
+	'Jorge Arcas': {
+		'equipe': 'Movistar',
+		'cout': 6,
 	},
 	'Joris Nieuwenhuis': {
-		'equipe': 'Sunweb',
-		'cout': 6,
+		'equipe': 'DSM',
+		'cout': 7,
 	},
 	'José Joaquín Rojas': {
 		'equipe': 'Movistar',
+		'cout': 6,
+	},
+	'Josef Cerny': {
+		'equipe': 'Deceuninck-Quick-Step',
 		'cout': 8,
 	},
 	'Julian Alaphilippe': {
 		'equipe': 'Deceuninck-Quick-Step',
-		'cout': 19,
+		'cout': 21,
+	},
+	'Julien Bernard': {
+		'equipe': 'Trek-Segafredo',
+		'cout': 7,
+	},
+	'Julien Simon': {
+		'equipe': 'TotalEnergies',
+		'cout': 6,
 	},
 	'Kasper Asgreen': {
 		'equipe': 'Deceuninck-Quick-Step',
 		'cout': 9,
 	},
+	'Kenneth Vanbilsen': {
+		'equipe': 'Cofidis',
+		'cout': 6,
+	},
 	'Kenny Elissonde': {
 		'equipe': 'Trek-Segafredo',
-		'cout': 9,
+		'cout': 10,
+	},
+	'Kévin Geniets': {
+		'equipe': 'Groupama-FDJ',
+		'cout': 8,
+	},
+	'Kévin Reza': {
+		'equipe': 'B&B Hôtels KTM',
+		'cout': 6,
+	},
+	'Kévin Van Melsen': {
+		'equipe': 'Intermarché-Wanty-Gobert',
+		'cout': 6	,
+	},
+	'Kristian Sbaragli': {
+		'equipe': 'Alpecin-Fenix',
+		'cout': 11,
 	},
 	'Krists Neilands': {
 		'equipe': 'Israël Start-Up Nation',
+		'cout': 10,
+	},
+	'Lilian Calmejane': {
+		'equipe': 'AG2R Citroen',
 		'cout': 9,
 	},
-	'Kévin Ledanois': {
+	'Loic Vliegen': {
+		'equipe': 'Intermarché-Wanty-Gobert',
+		'cout': 7,
+	},
+	'Lorenzo Rota': {
+		'equipe': 'Intermarché-Wanty-Gobert',
+		'cout': 6,
+	},
+	'Louis Meintjes': {
+		'equipe': 'Intermarché-Wanty-Gobert',
+		'cout': 13,
+	},
+	'Louis Vervaeke': {
+		'equipe': 'Alpecin-Fenix',
+		'cout': 9,
+	},
+	'Lucas Hamilton': {
+		'equipe': 'BikeExchange',
+		'cout': 13,
+	},
+	'Luka Mezgec': {
+		'equipe': 'BikeExchange',
+		'cout': 9,
+	},
+	'Lukas Owsian': {
 		'equipe': 'Arkea-Samsic',
 		'cout': 6,
 	},
-	'Kévin Reza': {
-		'equipe': 'B&B Hôtels-Vital Concept',
-		'cout': 7,
-	},
-	'Lennard Kämna': {
-		'equipe': 'Bora-Hansgrohe',
-		'cout': 9,
-	},
-	'Luis Leon Sanchez': {
-		'equipe': 'Astana',
-		'cout': 9,
-	},
-	'Luka Mezgec': {
-		'equipe': 'Mitchelton-Scott',
-		'cout': 10,
-	},
 	'Lukas Pöstlberger': {
-		'equipe': 'Bora-Hansgrohe',
+		'equipe': 'Bora-Hansgrohee',
+		'cout': 8,
+	},
+	'Luke Durbridge': {
+		'equipe': 'BikeExchange',
 		'cout': 6,
 	},
 	'Luke Rowe': {
@@ -318,295 +554,507 @@ coureurs = {
 	},
 	'Mads Pedersen': {
 		'equipe': 'Trek-Segafredo',
-		'cout': 13,
+		'cout': 14,
+	},
+	'Mads Schmidt': {
+		'equipe': 'Israël Start-Up Nation',
+		'cout': 6,
+	},
+	'Magnus Nielsen': {
+		'equipe': 'EF Education-Nippo',
+		'cout': 12,
+	},
+	'Manuele Boaro': {
+		'equipe': 'Astana',
+		'cout': 6,
 	},
 	'Marc Hirschi': {
-		'equipe': 'Sunweb',
-		'cout': 13,
+		'equipe': 'UAE Emirates',
+		'cout': 16,
+	},
+	'Marc Sarreau': {
+		'equipe': 'AG2R Citroen',
+		'cout': 12,
 	},
 	'Marc Soler': {
 		'equipe': 'Movistar',
-		'cout': 13,
+		'cout': 12,
 	},
 	'Marco Haller': {
-		'equipe': 'Bahrain-McLaren',
-		'cout': 8,
-	},
-	'Marco Marcato': {
-		'equipe': 'UAE Emirates',
-		'cout': 9,
-	},
-	'Matej Mohoric': {
-		'equipe': 'Bahrain-McLaren',
-		'cout': 10,
-	},
-	'Mathieu Burgaudeau': {
-		'equipe': 'Total Direct Energie',
+		'equipe': 'Bahrain Victorious',
 		'cout': 6,
 	},
-	'Matteo Trentin': {
-		'equipe': 'CCC',
+	'Marcus Burghardt': {
+		'equipe': 'Bora-Hansgrohe',
+		'cout': 6,
+	},
+	'Mark Donovan': {
+		'equipe': 'DSM',
+		'cout': 7,
+	},
+	'Mark Padun': {
+		'equipe': 'Bahrain Victorious',
 		'cout': 15,
 	},
-	'Matthieu Ladagnous': {
-		'equipe': 'Groupama-FDJ',
+	'Matej Mohoric': {
+		'equipe': 'Bahrain Victorious',
+		'cout': 10,
+	},
+	'Mathieu Van der Poel': {
+		'equipe': 'Alpecin-Fenix',                               
+		'cout': 22,
+	},
+	'Martijn Tusveld': {
+		'equipe': 'DSM',
 		'cout': 6,
 	},
+	'Mattia Cattaneo': {
+		'equipe': 'Deceuninck-Quick-Step',
+		'cout': 12,
+	},
+	'Mauri Vansevenant': {
+		'equipe': 'Deceuninck-Quick-Step',
+		'cout': 10,
+	},
+	'Maurits Lammertink': {
+		'equipe': 'Intermarché-Wanty-Gobert',
+		'cout': 7,
+	},
 	'Max Walscheid': {
-		'equipe': 'NTT',
+		'equipe': 'Qhubeka ASSOS',
 		'cout': 9,
 	},
 	'Maxime Chevalier': {
-		'equipe': 'B&B Hôtels-Vital Concept',
+		'equipe': 'B&B Hôtels KTM',
 		'cout': 6,
 	},
-	'Maximilian Schachmann': {
-		'equipe': 'Bora-Hansgrohe',
-		'cout': 14,
-	},
 	'Michael Gogl': {
-		'equipe': 'NTT',
-		'cout': 7,
+		'equipe': 'Qhubeka ASSOS',
+		'cout': 6,
+	},
+	'Michael Hundahl': {
+		'equipe': 'EF Education-Nippo',
+		'cout': 9,
+	},
+	'Michael Matthews': {
+		'equipe': 'BikeExchange',
+		'cout': 16,
 	},
 	'Michael Morkov': {
 		'equipe': 'Deceuninck-Quick-Step',
 		'cout': 6,
 	},
 	'Michael Schär': {
-		'equipe': 'CCC',
+		'equipe': 'AG2R Citroen',
 		'cout': 6,
 	},
-	'Michael Valgren': {
-		'equipe': 'NTT',
-		'cout': 10,
+	'Michael Schwarzmann': {
+		'equipe': 'Bora-Hansgrohe',
+		'cout': 6,
+	},
+	'Michael Woods': {
+		'equipe': 'Israël Start-Up Nation',
+		'cout': 17,
 	},
 	'Michal Kwiatkowski': {
 		'equipe': 'Ineos Grenadiers',
-		'cout': 15,
+		'cout': 14,
 	},
 	'Miguel Angel Lopez': {
-		'equipe': 'Astana',
-		'cout': 19,
+		'equipe': 'Movistar',
+		'cout': 20,
 	},
-	'Mikaël Cherel': {
-		'equipe': 'AG2R La Mondiale',
-		'cout': 7,
-	},
-	'Mikel Landa': {
-		'equipe': 'Bahrain-McLaren',
-		'cout': 19,
+	'Mike Teunissen': {
+		'equipe': 'Jumbo-Visma',
+		'cout': 11,
 	},
 	'Mikel Nieve': {
-		'equipe': 'Mitchelton-Scott',
-		'cout': 12,
+		'equipe': 'BikeExchange',
+		'cout': 9,
+	},
+	'Mikkel Bjerg': {
+		'equipe': 'UAE Emirates',
+		'cout': 9,
+	},
+	'Miles Scotson': {
+		'equipe': 'Groupama-FDJ',
+		'cout': 6,
+	},
+	'Nacer Bouhanni': {
+		'equipe': 'Arkea-Samsic',
+		'cout': 14,
 	},
 	'Nairo Quintana': {
 		'equipe': 'Arkea-Samsic',
-		'cout': 20,
+		'cout': 18,
 	},
 	'Nans Peters': {
-		'equipe': 'AG2R La Mondiale',
-		'cout': 8,
+		'equipe': 'AG2R Citroen',
+		'cout': 10,
 	},
-	'Neilson Powless': {
-		'equipe': 'EF Pro Cycling',
-		'cout': 8,
+	'Nathan Van Hooydonck': {
+		'equipe': 'Jumbo-Visma',
+		'cout': 7,
 	},
-	'Nelson Oliveira': {
-		'equipe': 'Movistar',
-		'cout': 8,
-	},
-	'Niccolo Bonifazio': {
-		'equipe': 'Total Direct Energie',
-		'cout': 12,
-	},
-	'Nicolas Edet': {
+	'Nathan Haas': {
 		'equipe': 'Cofidis',
 		'cout': 7,
 	},
-	'Nicolas Roche': {
-		'equipe': 'Sunweb',
+	'Neilson Powless': {
+		'equipe': 'EF Education-Nippo',
+		'cout': 9,
+	},
+	'Nelson Oliveira': {
+		'equipe': 'Movistar',
 		'cout': 7,
+	},
+	'Niccolo Bonifazio': {
+		'equipe': 'TotalEnergies',
+		'cout': 14,
+	},
+	'Nicholas Dlamini': {
+		'equipe': 'Qhubeka ASSOS',
+		'cout': 6,
+	},
+	'Nico Denz': {
+		'equipe': 'DSM',
+		'cout': 6,
 	},
 	'Nikias Arndt': {
-		'equipe': 'Sunweb',
+		'equipe': 'DSM',
+		'cout': 6,
+	},
+	'Nikita Stalnov': {
+		'equipe': 'Astana',
+		'cout': 6,
+	},
+	'Nils Eekhoff': {
+		'equipe': 'DSM',
 		'cout': 7,
 	},
-	'Niklas Eg': {
-		'equipe': 'Trek-Segafredo',
+	'Nils Politt': {
+		'equipe': 'Bora-Hansgrohe',
 		'cout': 8,
 	},
-	'Nils Politt': {
-		'equipe': 'Israël Start-Up Nation',
+	'Oliver Naesen': {
+		'equipe': 'AG2R Citroen',
 		'cout': 10,
 	},
-	'Oliver Naesen': {
-		'equipe': 'AG2R La Mondiale',
-		'cout': 11,
+	'Olivier Le Gac': {
+		'equipe': 'Groupama-FDJ',
+		'cout': 6,
 	},
 	'Omar Fraile': {
 		'equipe': 'Astana',
 		'cout': 8,
 	},
-	'Pavel Sivakov': {
-		'equipe': 'Ineos Grenadiers',
-		'cout': 15,
+	'Omer Goldstein': {
+		'equipe': 'Israël Start-Up Nation',
+		'cout': 6,
 	},
-	'Pello Bilbao': {
-		'equipe': 'Bahrain-McLaren',
-		'cout': 12,
+	'Otto Vergaerde': {
+		'equipe': 'Alpecin-Fenix',
+		'cout': 6,
 	},
-	'Peter Sagan': {
-		'equipe': 'Bora-Hansgroh',
+	'Pascal Ackermann': {
+		'equipe': 'Bora-Hansgrohe',
 		'cout': 19,
 	},
+	'Patrick Konrad': {
+		'equipe': 'Bora-Hansgrohe',
+		'cout': 14,
+	},
+	'Peio Bilbao': {
+		'equipe': 'Bahrain Victorious',
+		'cout': 13,
+	},
+	'Peter Sagan': {
+		'equipe': 'Bora-Hansgrohe',
+		'cout': 18,
+	},
+	'Peter Vakoc': {
+		'equipe': 'Alpecin-Fenix',
+		'cout': 9,
+	},
+	'Philippe Gilbert': {
+		'equipe': 'Lotto-Soudal',
+		'cout': 12,
+	},
+	'Pierre Latour': {
+		'equipe': 'TotalEnergies',
+		'cout': 11,
+	},
 	'Pierre Rolland': {
-		'equipe': 'B&B Hôtels-Vital Concept',
-		'cout': 10,
+		'equipe': 'B&B Hôtels KTM',
+		'cout': 9,
 	},
 	'Pierre-Luc Périchon': {
 		'equipe': 'Cofidis',
 		'cout': 6,
 	},
+	'Piet Allegaert': {
+		'equipe': 'Cofidis',
+		'cout': 7,
+	},
 	'Primoz Roglic': {
 		'equipe': 'Jumbo-Visma',
-		'cout': 22,
+		'cout': 21,
 	},
 	'Quentin Pacher': {
-		'equipe': 'B&B Hôtels-Vital Concept',
-		'cout': 9,
+		'equipe': 'B&B Hôtels KTM',
+		'cout': 11,
+	},
+	'Quinn Simmons': {
+		'equipe': 'Trek-Segafredo',
+		'cout': 8,
+	},
+	'Rafal Majka': {
+		'equipe': 'UAE Emirates',
+		'cout': 11,
+	},
+	'Ramon Sinkeldam': {
+		'equipe': 'Groupama-FDJ',
+		'cout': 6,
+	},
+	'Reto Hollenstein': {
+		'equipe': 'Israël Start-Up Nation',
+		'cout': 6,
+	},
+	'Reinardt Janse Van Rensburg': {
+		'equipe': 'Qhubeka ASSOS',
+		'cout': 8,
 	},
 	'Richard Carapaz': {
 		'equipe': 'Ineos Grenadiers',
-		'cout': 19,
+		'cout': 20,
 	},
 	'Richie Porte': {
-		'equipe': 'Trek-Segafredo',
-		'cout': 16,
+		'equipe': 'Ineos Grenadiers',
+		'cout': 18,
+	},
+	'Rick Zabel': {
+		'equipe': 'Israël Start-Up Nation',
+		'cout': 6,
 	},
 	'Rigoberto Uran': {
-		'equipe': 'EF Pro Cycling',
-		'cout': 18,
+		'equipe': 'EF Education-Nippo',
+		'cout': 19,
 	},
 	'Robert Gesink': {
 		'equipe': 'Jumbo-Visma',
-		'cout': 9,
+		'cout': 8,
 	},
 	'Roger Kluge': {
 		'equipe': 'Lotto-Soudal',
 		'cout': 6,
 	},
-	'Romain Sicard': {
-		'equipe': 'Total Direct Energie',
-		'cout': 6,
+	'Ruben Fernandez': {
+		'equipe': 'Cofidis',
+		'cout': 9,
 	},
-	'Roman Kreuziger': {
-		'equipe': 'NTT',
+	'Ruben Guerreiro': {
+		'equipe': 'EF Education-Nippo',
 		'cout': 8,
+	},
+	'Rudiger Selig': {
+		'equipe': 'Bora-Hansgrohe',
+		'cout': 6,
 	},
 	'Rudy Molard': {
 		'equipe': 'Groupama-FDJ',
-		'cout': 10,
-	},
-	'Ryan Gibbons': {
-		'equipe': 'NTT',
 		'cout': 9,
 	},
-	'Rémi Cavagna': {
-		'equipe': 'Deceuninck-Quick-Step',
-		'cout': 10,
+	'Rui Oliveira': {
+		'equipe': 'UAE Emirates',
+		'cout': 6,
 	},
 	'Sam Bennett': {
 		'equipe': 'Deceuninck-Quick-Step',
-		'cout': 20,
+		'cout': 21,
+	},
+	'Sam Oomen': {
+		'equipe': 'Jumbo-Visma',
+		'cout': 14,
+	},
+	'Sean Bennett': {
+		'equipe': 'Qhubeka ASSOS',
+		'cout': 6,
+	},
+	'Sep Vanmarcke': {
+		'equipe': 'Israël Start-Up Nation',
+		'cout': 6,
 	},
 	'Sepp Kuss': {
 		'equipe': 'Jumbo-Visma',
 		'cout': 14,
 	},
-	'Simon Geschke': {
-		'equipe': 'CCC',
-		'cout': 7,
+	'Sergio Henao Montoya': {
+		'equipe': 'Qhubeka ASSOS',
+		'cout': 8,
 	},
-	'Simone Consonni': {
-		'equipe': 'Cofidis',
-		'cout': 9,
-	},
-	'Sonny Colbrelli': {
-		'equipe': 'Bahrain-McLaren',
+	'Sergio Higuita': {
+		'equipe': 'EF Education-Nippo',
 		'cout': 15,
 	},
-	'Sébastien Reichenbach': {
+	'Sergio Samitier': {
+		'equipe': 'Movistar',
+		'cout': 10,
+	},
+	'Silvan Diller': {
+		'equipe': 'Alpecin-Fenix',
+		'cout': 9,
+	},
+	'Simon Clarke': {
+		'equipe': 'Qhubeka ASSOS',
+		'cout': 10,
+	},
+	'Simon Geschke': {
+		'equipe': 'Cofidis',
+		'cout': 7,
+	},
+	'Simon Yates': {
+		'equipe': 'BikeExchange',
+		'cout': 19,
+	},
+	'Sonny Colbrelli': {
+		'equipe': 'Bahrain Victorious',
+		'cout': 17,
+	},
+	'Søren Kragh Andersen': {
+		'equipe': 'DSM',
+		'cout': 11,
+	},
+	'Stefan De Bod': {
+		'equipe': 'Astana',
+		'cout': 10,
+	},
+	'Stefan Kung': {
 		'equipe': 'Groupama-FDJ',
 		'cout': 10,
 	},
-	'Søren Kragh Andersen': {
-		'equipe': 'Sunweb',
-		'cout': 11,
+	'Stefan Bissegger': {
+		'equipe': 'EF Education-Nippo',
+		'cout': 10,
+	},
+	'Steven Kruijswijk': {
+		'equipe': 'Jumbo-Visma',
+		'cout': 17,
 	},
 	'Tadej Pogacar': {
 		'equipe': 'UAE Emirates',
+		'cout': 22,
+	},
+	'Tao Geoghegan Hart': {
+		'equipe': 'Ineos Grenadiers',
 		'cout': 18,
 	},
 	'Tejay Van Garderen': {
-		'equipe': 'EF Pro Cycling',
-		'cout': 11,
+		'equipe': 'EF Education-Nippo',
+		'cout': 8,
 	},
-	'Thibaut Pinot': {
-		'equipe': 'Groupama-FDJ',
-		'cout': 20,
+	'Thibault Guernalec': {
+		'equipe': 'Arkea-Samsic',
+		'cout': 6,
+	},
+	'Thomas Boudat': {
+		'equipe': 'Arkea-Samsic',
+		'cout': 8,
 	},
 	'Thomas De Gendt': {
 		'equipe': 'Lotto-Soudal',
-		'cout': 12,
+		'cout': 11,
 	},
 	'Tiesj Benoot': {
-		'equipe': 'Sunweb',
-		'cout': 16,
+		'equipe': 'DSM',
+		'cout': 15,
 	},
 	'Tim Declercq': {
 		'equipe': 'Deceuninck-Quick-Step',
 		'cout': 6,
 	},
-	'Tom Dumoulin': {
-		'equipe': 'Jumbo-Visma',
-		'cout': 19,
+	'Tim Merlier': {
+		'equipe': 'Alpecin-Fenix',
+		'cout': 16,
 	},
-	'Tom Van Asbroeck': {
-		'equipe': 'Israël Start-Up Nation',
-		'cout': 11,
+	'Tim Wellens': {
+		'equipe': 'Lotto-Soudal',
+		'cout': 13,
+	},
+	'Tosh Van der Sande': {
+		'equipe': 'Lotto-Soudal',
+		'cout': 7,
+	},
+	'Tom Scully': {
+		'equipe': 'EF Education-Nippo',
+		'cout': 6,
 	},
 	'Toms Skujins': {
 		'equipe': 'Trek-Segafredo',
-		'cout': 8,
+		'cout': 9,
 	},
 	'Tony Martin': {
 		'equipe': 'Jumbo-Visma',
-		'cout': 7,
+		'cout': 6,
 	},
 	'Valentin Madouas': {
 		'equipe': 'Groupama-FDJ',
+		'cout': 12,
+	},
+	'Valentin Feron': {
+		'equipe': 'TotalEnergies',
+		'cout': 6,
+	},
+	'Vincenzo Nibali': {
+		'equipe': 'Trek-Segafredo',
+		'cout': 15,
+	},
+	'Victor Campenaerts': {
+		'equipe': 'Qhubeka ASSOS',
 		'cout': 10,
 	},
-	'Vegard Stake Laengen': {
-		'equipe': 'UAE Emirates',
-		'cout': 6,
+	'Victor De La Parte': {
+		'equipe': 'TotalEnergies',
+		'cout': 7,
 	},
 	'Warren Barguil': {
 		'equipe': 'Arkea-Samsic',
-		'cout': 14,
+		'cout': 13,
 	},
 	'Winner Anacona': {
 		'equipe': 'Arkea-Samsic',
 		'cout': 9,
 	},
-	'Wout Poels': {
-		'equipe': 'Bahrain-McLaren',
-		'cout': 15,
+	'Wilco Kelderman': {
+		'equipe': 'Bora-Hansgrohe',
+		'cout': 17,
+	},
+	'Wouter Poels': {
+		'equipe': 'Bahrain Victorious',
+		'cout': 14,
 	},
 	'Wout Van Aert': {
 		'equipe': 'Jumbo-Visma',
-		'cout': 16,
+		'cout': 21,
+	},
+	'Xandro Meurisse': {
+		'equipe': 'Alpecin-Fenix',
+		'cout': 11,
+	},
+	'Yevgeniy Gidich': {
+		'equipe': 'Astana',
+		'cout': 6,
+	},
+	'Yukiya Arashiro': {
+		'equipe': 'Bahrain Victorious',
+		'cout': 6,
+	},
+	'Yuriy Natarov': {
+		'equipe': 'Astana',
+		'cout': 6,
+	},
+	'Yves Lampaert': {
+		'equipe': 'Deceuninck-Quick-Step',
+		'cout': 10,
 	}
 }
 [ele.update(dict(general=None, montagne=None, points=None, jeune=None, etape=0, total=0, rentabilite=0)) for ele in coureurs.values()]

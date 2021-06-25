@@ -6,10 +6,10 @@ from data import coureurs
 
 file = 'ranking.csv'
 
-class_general = u"https://tourdefrance2020.fr/classement-general/"
-class_montagne = u"https://tourdefrance2020.fr/classement-du-meilleur-grimpeur/"
-class_points = u"https://tourdefrance2020.fr/classement-par-points/"
-class_jeune = u"https://tourdefrance2020.fr/classement-du-meilleur-jeune/"
+class_general = u"https://tourdefrance2021.fr/classement-general/"
+class_montagne = u"https://tourdefrance2021.fr/classement-du-meilleur-grimpeur/"
+class_points = u"https://tourdefrance2021.fr/classement-par-points/"
+class_jeune = u"https://tourdefrance2021.fr/classement-du-meilleur-jeune/"
 
 fantasy = {
     "general": [50, 45, 40, 35, 30, 28, 26, 24, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10,10,10,10,10, 9,9,9,9,9, 8,8,8,8,8, 7,7,7,7,7, 6,6,6,6,6, 5,5,5,5,5, 4,4,4,4,4,4,4,4,4,4, 3,3,3,3,3,3,3,3,3,3, 2,2,2,2,2,2,2,2,2,2, 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],
@@ -24,7 +24,7 @@ def get_ranking(url,type):
 	requete = requests.get(url)
 	page = requete.content
 	soup = BeautifulSoup(page,features="html.parser")
-	table = soup.find_all('figure', attrs={'class':'wp-block-table'})[-1].find('table').find('tbody')
+	table = soup.find_all('figure', attrs={'class':'wp-block-table'})[0].find('table').find('tbody')
 
 	for line in table.find_all('tr'):
 		cols = [ele.text.strip() for ele in line.find_all('td')]
@@ -71,7 +71,7 @@ get_ranking(class_points,"points")
 get_ranking(class_jeune,"jeune")
 
 for i in range(1,22):
-	url = u"https://tourdefrance2020.fr/" + str(i) + "e-etape/"
+	url = u"https://tourdefrance2021.fr/" + str(i) + "e-etape/"
 	get_ranking(url,"etape")
 
 compute_points()

@@ -1,4 +1,3 @@
-# coding: utf8
 #!/usr/bin/python3
 
 import flask
@@ -7,10 +6,8 @@ import dash_table
 import dash_html_components as html
 import pandas as pd
 
-from tdf import coureurs
+from tdf import coureurs, file
 
-
-file = 'ranking.csv'
 
 #########
 # Serveur
@@ -26,7 +23,7 @@ df = pd.read_csv(file)
 app.layout = html.Div(
     id='page',
     children=[
-        html.H1('Tour de France 2020 pour Fantasy League by Gros',className='logo'),
+        html.H1('Tour de France 2021 pour Fantasy League by Gros',className='logo'),
         html.Div([
             dash_table.DataTable(
                 id='datatable-interactivity',
