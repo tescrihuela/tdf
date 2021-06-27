@@ -4,7 +4,7 @@ coureurs = {
 		'equipe': 'TotalEnergies',
 		'cout': 6,
 	},
-	'Aime De Gendt': {
+	'Aimé De Gendt': {
 		'equipe': 'Intermarché-Wanty-Gobert',
 		'cout': 6,
 	},
@@ -48,7 +48,7 @@ coureurs = {
 		'equipe': 'TotalEnergies',
 		'cout': 8,
 	},
-	'Amund Grøndahl Jansen': {
+	'Amund Grondahl Jansen': {
 		'equipe': 'BikeExchange',
 		'cout': 6,
 	},
@@ -72,11 +72,11 @@ coureurs = {
 		'equipe': 'TotalEnergies',
 		'cout': 9,
 	},
-	'Arnaud Demare': {
+	'Arnaud Démare': {
 		'equipe': 'Groupama-FDJ',
 		'cout': 17,
 	},
-	'Aurelien Paret Peintre': {
+	'Aurélien Paret-Peintre': {
 		'equipe': 'AG2R Citroen',
 		'cout': 11,
 	},
@@ -88,7 +88,7 @@ coureurs = {
 		'equipe': 'Trek-Segafredo',
 		'cout': 15,
 	},
-	'Ben O Connor': {
+	'Ben O\'Connor': {
 		'equipe': 'AG2R Citroen',
 		'cout': 15,
 	},
@@ -144,7 +144,7 @@ coureurs = {
 		'equipe': 'DSM',
 		'cout': 6,
 	},
-	'Chris Froome': {
+	'Christopher Froome': {
 		'equipe': 'Israël Start-Up Nation',
 		'cout': 9,
 	},
@@ -152,7 +152,7 @@ coureurs = {
 		'equipe': 'Cofidis',
 		'cout': 13,
 	},
-	'Christopher Jensen': {
+	'Christopher Juul-Jensen': {
 		'equipe': 'BikeExchange',
 		'cout': 6,
 	},
@@ -188,11 +188,11 @@ coureurs = {
 		'equipe': 'AG2R Citroen',
 		'cout': 8,
 	},
-	'Daniel Martin': {
+	'Dan Martin': {
 		'equipe': 'Israël Start-Up Nation',
 		'cout': 15,
 	},
-	'Daniel McClay': {
+	'Dan McClay': {
 		'equipe': 'Arkea-Samsic',
 		'cout': 14,
 	},
@@ -248,7 +248,7 @@ coureurs = {
 		'equipe': 'Bahrain Victorious',
 		'cout': 12,
 	},
-	'Dylan Van Baarle': {
+	'Dylan van Baarle': {
 		'equipe': 'Ineos Grenadiers',
 		'cout': 11,
 	},
@@ -308,7 +308,7 @@ coureurs = {
 		'equipe': 'Lotto-Soudal',
 		'cout': 6,
 	},
-	'George Zimmermann': {
+	'Georg Zimmermann': {
 		'equipe': 'Intermarché-Wanty-Gobert',
 		'cout': 6,
 	},
@@ -328,7 +328,7 @@ coureurs = {
 		'equipe': 'Cofidis',
 		'cout': 15,
 	},
-	'Harrisson Sweeny': {
+	'Harry Sweeny': {
 		'equipe': 'Lotto-Soudal',
 		'cout': 7,
 	},
@@ -348,7 +348,7 @@ coureurs = {
 		'equipe': 'Groupama-FDJ',
 		'cout': 6,
 	},
-	'Ion Izaguirre': {
+	'Ion Izagirre': {
 		'equipe': 'Astana',
 		'cout': 15,
 	},
@@ -356,7 +356,7 @@ coureurs = {
 		'equipe': 'Movistar',
 		'cout': 6,
 	},
-	'Ivan Garcia': {
+	'Ivan Garcia Cortina': {
 		'equipe': 'Movistar',
 		'cout': 13,
 	},
@@ -414,6 +414,10 @@ coureurs = {
 	},
 	'Jens Keukeleire': {
 		'equipe': 'EF Education-Nippo',
+		'cout': 7,
+	},
+	'Jérémy Cabot': {
+		'equipe': 'TotalEnergies',
 		'cout': 7,
 	},
 	'Jérémy Lecroq': {
@@ -528,7 +532,7 @@ coureurs = {
 		'equipe': 'Alpecin-Fenix',
 		'cout': 9,
 	},
-	'Lucas Hamilton': {
+	'Luke Hamilton': {
 		'equipe': 'BikeExchange',
 		'cout': 13,
 	},
@@ -560,7 +564,7 @@ coureurs = {
 		'equipe': 'Israël Start-Up Nation',
 		'cout': 6,
 	},
-	'Magnus Nielsen': {
+	'Magnus Cort': {
 		'equipe': 'EF Education-Nippo',
 		'cout': 12,
 	},
@@ -587,6 +591,10 @@ coureurs = {
 	'Marcus Burghardt': {
 		'equipe': 'Bora-Hansgrohe',
 		'cout': 6,
+	},
+	'Mark Cavendish': {
+		'equipe': 'Deceuninck-Quick-Step',
+		'cout': 18,
 	},
 	'Mark Donovan': {
 		'equipe': 'DSM',
@@ -632,7 +640,7 @@ coureurs = {
 		'equipe': 'Qhubeka ASSOS',
 		'cout': 6,
 	},
-	'Michael Hundahl': {
+	'Michael Valgren': {
 		'equipe': 'EF Education-Nippo',
 		'cout': 9,
 	},
@@ -644,7 +652,7 @@ coureurs = {
 		'equipe': 'Deceuninck-Quick-Step',
 		'cout': 6,
 	},
-	'Michael Schär': {
+	'Michael Schar': {
 		'equipe': 'AG2R Citroen',
 		'cout': 6,
 	},
@@ -764,7 +772,7 @@ coureurs = {
 		'equipe': 'Bora-Hansgrohe',
 		'cout': 14,
 	},
-	'Peio Bilbao': {
+	'Pello Bilbao': {
 		'equipe': 'Bahrain Victorious',
 		'cout': 13,
 	},
@@ -772,7 +780,7 @@ coureurs = {
 		'equipe': 'Bora-Hansgrohe',
 		'cout': 18,
 	},
-	'Peter Vakoc': {
+	'Petr Vakoc': {
 		'equipe': 'Alpecin-Fenix',
 		'cout': 9,
 	},
@@ -864,13 +872,9 @@ coureurs = {
 		'equipe': 'Groupama-FDJ',
 		'cout': 9,
 	},
-	'Rui Oliveira': {
+	'Rui Costa': {
 		'equipe': 'UAE Emirates',
-		'cout': 6,
-	},
-	'Sam Bennett': {
-		'equipe': 'Deceuninck-Quick-Step',
-		'cout': 21,
+		'cout': 12,
 	},
 	'Sam Oomen': {
 		'equipe': 'Jumbo-Visma',
@@ -888,7 +892,7 @@ coureurs = {
 		'equipe': 'Jumbo-Visma',
 		'cout': 14,
 	},
-	'Sergio Henao Montoya': {
+	'Sergio Henao': {
 		'equipe': 'Qhubeka ASSOS',
 		'cout': 8,
 	},
@@ -900,7 +904,7 @@ coureurs = {
 		'equipe': 'Movistar',
 		'cout': 10,
 	},
-	'Silvan Diller': {
+	'Silvan Dillier': {
 		'equipe': 'Alpecin-Fenix',
 		'cout': 9,
 	},
@@ -920,7 +924,7 @@ coureurs = {
 		'equipe': 'Bahrain Victorious',
 		'cout': 17,
 	},
-	'Søren Kragh Andersen': {
+	'Soren Kragh Andersen': {
 		'equipe': 'DSM',
 		'cout': 11,
 	},
@@ -928,11 +932,11 @@ coureurs = {
 		'equipe': 'Astana',
 		'cout': 10,
 	},
-	'Stefan Kung': {
+	'Stefan Küng': {
 		'equipe': 'Groupama-FDJ',
 		'cout': 10,
 	},
-	'Stefan Bissegger': {
+	'Stefan Bisseger': {
 		'equipe': 'EF Education-Nippo',
 		'cout': 10,
 	},
@@ -988,7 +992,7 @@ coureurs = {
 		'equipe': 'EF Education-Nippo',
 		'cout': 6,
 	},
-	'Toms Skujins': {
+	'Tom Skujins': {
 		'equipe': 'Trek-Segafredo',
 		'cout': 9,
 	},
@@ -1012,7 +1016,7 @@ coureurs = {
 		'equipe': 'Qhubeka ASSOS',
 		'cout': 10,
 	},
-	'Victor De La Parte': {
+	'Victor De la Parte': {
 		'equipe': 'TotalEnergies',
 		'cout': 7,
 	},
@@ -1028,11 +1032,11 @@ coureurs = {
 		'equipe': 'Bora-Hansgrohe',
 		'cout': 17,
 	},
-	'Wouter Poels': {
+	'Wout Poels': {
 		'equipe': 'Bahrain Victorious',
 		'cout': 14,
 	},
-	'Wout Van Aert': {
+	'Wout van Aert': {
 		'equipe': 'Jumbo-Visma',
 		'cout': 21,
 	},
