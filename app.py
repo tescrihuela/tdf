@@ -21,14 +21,13 @@ df = pd.read_csv(file)
 ##############
 ### Layout
 app.layout = html.Div(
-    id='page',
     children=[
         html.H1('Tour de France 2021 pour Fantasy League by Gros',className='logo'),
         html.Div([
             dash_table.DataTable(
                 id='datatable-interactivity',
                 columns=[
-                    {"name": i, "id": i, "deletable": True, "selectable": True} for i in df.columns
+                    {"name": i, "id": i, "deletable": False, "selectable": True} for i in df.columns
                 ],
                 # tooltip={'Fantasy Score': {'type': 'text', 'value': 'Points obtenus lors de la prochaine étape si aucun changement aux classements'}},
                 style_header={
@@ -64,13 +63,14 @@ app.layout = html.Div(
                 selected_rows=[],
                 page_action="native",
                 # page_current= 0,
-                # page_size= 10,
+                page_size= 300,
             )
         ]),
-        html.Div(id='page-content', className='content', children=[
-            "Source : ",
-            html.A("Github", href="https://github.com/tescrihuela/tdf"),
-        ])
+        html.Div(
+            children=[
+                "Source : ", html.A("Github", href="https://github.com/tescrihuela/tdf"),
+            ]
+        )
     ]
 )
 
