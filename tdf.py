@@ -20,11 +20,11 @@ fantasy = {
 }
 
 
-def get_ranking(url,type):
+def get_ranking(url,type,index):
 	requete = requests.get(url)
 	page = requete.content
 	soup = BeautifulSoup(page,features="html.parser")
-	table = soup.find_all('figure', attrs={'class':'wp-block-table'})[0].find('table').find('tbody')
+	table = soup.find_all('figure', attrs={'class':'wp-block-table'})[index].find('table').find('tbody')
 
 	for line in table.find_all('tr'):
 		cols = [ele.text.strip() for ele in line.find_all('td')]
@@ -65,14 +65,14 @@ def write_csv(file):
 
 ######
 # Main
-get_ranking(class_general,"general")
-get_ranking(class_montagne,"montagne")
-get_ranking(class_points,"points")
-get_ranking(class_jeune,"jeune")
+get_ranking(class_general,"general", 0)
+get_ranking(class_montagne,"montagne", 0)
+get_ranking(class_points,"points", 0)
+get_ranking(class_jeune,"jeune", 0)
 
 for i in range(1,22):
 	url = u"https://tourdefrance2021.fr/" + str(i) + "e-etape/"
-	get_ranking(url,"etape")
+	get_ranking(url,"etape", -1)
 
 compute_points()
 write_csv(file)
