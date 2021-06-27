@@ -192,7 +192,7 @@ coureurs = {
 		'equipe': 'Israël Start-Up Nation',
 		'cout': 15,
 	},
-	'Dan McClay': {
+	'Dan McLay': {
 		'equipe': 'Arkea-Samsic',
 		'cout': 14,
 	},
@@ -1007,6 +1007,10 @@ coureurs = {
 	'Valentin Feron': {
 		'equipe': 'TotalEnergies',
 		'cout': 6,
+	},
+	'Vegard Stake Laengen': {
+		'equipe': 'UAE Emirates',
+		'cout': 9,
 	},
 	'Vincenzo Nibali': {
 		'equipe': 'Trek-Segafredo',
