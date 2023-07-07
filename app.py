@@ -22,7 +22,7 @@ df = pd.read_csv(file)
 ### Layout
 app.layout = html.Div(
     children=[
-        html.H1('Tour de France 2021 pour Fantasy League by Gros',className='logo'),
+        html.H1('Tour de France 2023 Fantasy League',className='logo'),
         html.Div([
             dash_table.DataTable(
                 id='datatable-interactivity',

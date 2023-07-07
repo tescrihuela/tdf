@@ -2,14 +2,15 @@ import requests
 from bs4 import BeautifulSoup
 from pprint import pprint
 import csv
-from data import coureurs
+from data2023 import coureurs
 
 file = 'ranking.csv'
 
-class_general = u"https://tourdefrance2021.fr/classement-general/"
-class_montagne = u"https://tourdefrance2021.fr/classement-du-meilleur-grimpeur/"
-class_points = u"https://tourdefrance2021.fr/classement-par-points/"
-class_jeune = u"https://tourdefrance2021.fr/classement-du-meilleur-jeune/"
+website = u"https://tourdefrance2023.fr"
+class_general = f"{website}/classement-general/"
+class_montagne = f"{website}/classement-du-meilleur-grimpeur/"
+class_points = f"{website}/classement-par-points/"
+class_jeune = f"{website}/classement-du-meilleur-jeune/"
 
 fantasy = {
     "general": [50, 45, 40, 35, 30, 28, 26, 24, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10,10,10,10,10, 9,9,9,9,9, 8,8,8,8,8, 7,7,7,7,7, 6,6,6,6,6, 5,5,5,5,5, 4,4,4,4,4,4,4,4,4,4, 3,3,3,3,3,3,3,3,3,3, 2,2,2,2,2,2,2,2,2,2, 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],
@@ -21,6 +22,7 @@ fantasy = {
 
 
 def get_ranking(url,type,index):
+	print(url)
 	requete = requests.get(url)
 	page = requete.content
 	soup = BeautifulSoup(page,features="html.parser")
@@ -34,7 +36,6 @@ def get_ranking(url,type,index):
 				coureurs[nom][type] = cols[0]
 			else:
 				coureurs[nom]["etape"] += fantasy["etape"][int(cols[0])-1] if int(cols[0]) <= len(fantasy["etape"]) else 0
-        
 
 def compute_points():
     for coureur, stat in coureurs.items():
@@ -71,7 +72,7 @@ get_ranking(class_points,"points", 0)
 get_ranking(class_jeune,"jeune", 0)
 
 for i in range(1,22):
-	url = u"https://tourdefrance2021.fr/" + str(i) + "e-etape/"
+	url = f"{website}/etape-{i}/"
 	get_ranking(url,"etape", -1)
 
 compute_points()
