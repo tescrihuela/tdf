@@ -57,6 +57,7 @@ app.layout = html.Div(
                 filter_action="native",
                 sort_action="native",
                 sort_mode="multi",
+                sort_by=[{'column_id': 'Fantasy Score', 'direction': 'desc'}],
                 # column_selectable="single",
                 # row_selectable="multi",
                 # row_deletable=True,
