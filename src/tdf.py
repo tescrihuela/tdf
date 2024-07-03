@@ -2,15 +2,15 @@ import requests
 from bs4 import BeautifulSoup
 from pprint import pprint
 import csv
-from data2023 import coureurs
+from data2024 import coureurs
 
 file = 'ranking.csv'
 
-website = u"https://tourdefrance2023.fr"
-class_general = f"{website}/classement-general/"
-class_montagne = f"{website}/classement-du-meilleur-grimpeur/"
-class_points = f"{website}/classement-par-points/"
-class_jeune = f"{website}/classement-du-meilleur-jeune/"
+website = u"https://lesinfosdutour.fr/tour-de-france-2024"
+class_general = f"{website}/classement-general-2024/"
+class_montagne = f"{website}/classement-du-meilleur-grimpeur-2024/"
+class_points = f"{website}/classement-par-points-2024/"
+class_jeune = f"{website}/classement-du-meilleur-jeune-2024/"
 
 fantasy = {
     "general": [50, 45, 40, 35, 30, 28, 26, 24, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10,10,10,10,10, 9,9,9,9,9, 8,8,8,8,8, 7,7,7,7,7, 6,6,6,6,6, 5,5,5,5,5, 4,4,4,4,4,4,4,4,4,4, 3,3,3,3,3,3,3,3,3,3, 2,2,2,2,2,2,2,2,2,2, 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],
@@ -72,11 +72,11 @@ get_ranking(class_points,"points", 0)
 get_ranking(class_jeune,"jeune", 0)
 
 for i in range(1,22):
-	url = f"{website}/etape-{i}/"
+	url = f"{website}/etape-{i}-2024/"
 	get_ranking(url,"etape", -1)
 
 compute_points()
 write_csv(file)
 
-pprint(coureurs)
+#pprint(coureurs)
 

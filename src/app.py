@@ -2,8 +2,7 @@
 
 import flask
 import dash
-import dash_table
-import dash_html_components as html
+from dash import dash_table, html
 import pandas as pd
 
 from tdf import coureurs, file
@@ -23,7 +22,7 @@ df = pd.read_csv(file)
 ### Layout
 app.layout = html.Div(
     children=[
-        html.H1('Tour de France 2023 Fantasy League',className='logo'),
+        html.H1('Tour de France 2024 Fantasy League',className='logo'),
         html.Div([
             dash_table.DataTable(
                 id='datatable-interactivity',
