@@ -22,7 +22,7 @@ coureurs = {
 'Geraint Thomas': {'equipe' : 'Ineos Grenadiers', 'cout': 18,},
 'Tom Pidcock': {'equipe' : 'Ineos Grenadiers', 'cout': 18,},
 'Egan Bernal': {'equipe' : 'Ineos Grenadiers', 'cout': 17,},
-'Michał Kwiatkowski': {'equipe' : 'Ineos Grenadiers', 'cout': 12,},
+'Michal Kwiatkowski': {'equipe' : 'Ineos Grenadiers', 'cout': 12,},
 'Laurens de Plus': {'equipe' : 'Ineos Grenadiers', 'cout': 12,},
 'Jonathan Castroviejo': {'equipe' : 'Ineos Grenadiers', 'cout': 11,},
 'Ben Turner': {'equipe' : 'Ineos Grenadiers', 'cout': 10,},
@@ -38,10 +38,10 @@ coureurs = {
 
 'Richard Carapaz': {'equipe' : 'EF Education-Easypost ', 'cout': 18,},
 'Neilson Powless': {'equipe' : 'EF Education-Easypost ', 'cout': 15,},
-'Stefan Bisseger': {'equipe' : 'EF Education-Easypost ', 'cout': 13,},
+'Stefan Bissegger': {'equipe' : 'EF Education-Easypost ', 'cout': 13,},
 'Ben Healy': {'equipe' : 'EF Education-Easypost ', 'cout': 13,},
 'Alberto Bettiol': {'equipe' : 'EF Education-Easypost ', 'cout': 11,},
-'Marijn van den berg': {'equipe' : 'EF Education-Easypost ', 'cout': 11,},
+'Marijn van den Berg': {'equipe' : 'EF Education-Easypost ', 'cout': 11,},
 'Rui Costa': {'equipe' : 'EF Education-Easypost ', 'cout': 12,},
 'Sean Quinn': {'equipe' : 'EF Education-Easypost ', 'cout': 9,},
 
@@ -63,7 +63,7 @@ coureurs = {
 'Nikias Arndt': {'equipe' : 'Bahrain Victorious ', 'cout': 5,},
 
 'Primoz Roglic': {'equipe' : 'Bora - Hansgrohe', 'cout': 21,},
-'Alexander Vlasov': {'equipe' : 'Bora - Hansgrohe', 'cout': 18,},
+'Alexandr Vlasov': {'equipe' : 'Bora - Hansgrohe', 'cout': 18,},
 'Jai Hindley': {'equipe' : 'Bora - Hansgrohe', 'cout': 17,},
 'Matteo Sobrero': {'equipe' : 'Bora - Hansgrohe', 'cout': 11,},
 'Danny van Poppel': {'equipe' : 'Bora - Hansgrohe', 'cout': 11,},
@@ -81,13 +81,13 @@ coureurs = {
 'Carlos Verona': {'equipe' : 'Lidl - Trek', 'cout': 6,},
 
 'Félix Gall': {'equipe' : 'Decathlon AG2R La Mondiale', 'cout': 17,},
-'Sam Benett': {'equipe' : 'Decathlon AG2R La Mondiale', 'cout': 16,},
+'Sam Bennett': {'equipe' : 'Decathlon AG2R La Mondiale', 'cout': 16,},
 'Nicolas Prodhomme': {'equipe' : 'Decathlon AG2R La Mondiale', 'cout': 12,},
 'Bruno Armirail': {'equipe' : 'Decathlon AG2R La Mondiale', 'cout': 11,},
 'Dorian Godon': {'equipe' : 'Decathlon AG2R La Mondiale', 'cout': 11,},
 'Paul Lapeira': {'equipe' : 'Decathlon AG2R La Mondiale', 'cout': 10,},
 'Nans Peters': {'equipe' : 'Decathlon AG2R La Mondiale', 'cout': 9,},
-'Olivier Naesen': {'equipe' : 'Decathlon AG2R La Mondiale', 'cout': 9,},
+'Oliver Naesen': {'equipe' : 'Decathlon AG2R La Mondiale', 'cout': 9,},
 
 'Jasper Philipsen': {'equipe' : 'Alpecin-Deceuninck', 'cout': 23,},
 'Mathieu van der Poel': {'equipe' : 'Alpecin-Deceuninck', 'cout': 22,},
@@ -148,7 +148,7 @@ coureurs = {
 'Michael Matthews': {'equipe' : 'Team Jayco AlUla', 'cout': 16,},
 'Chris Harper': {'equipe' : 'Team Jayco AlUla', 'cout': 12,},
 'Luka Mezgec': {'equipe' : 'Team Jayco AlUla', 'cout': 9,},
-'Christopher Juul-Jansen': {'equipe' : 'Team Jayco AlUla', 'cout': 7,},
+'Christopher Juul-Jensen': {'equipe' : 'Team Jayco AlUla', 'cout': 7,},
 'Luke Durbridge': {'equipe' : 'Team Jayco AlUla', 'cout': 6,},
 'Elmar Reinders': {'equipe' : 'Team Jayco AlUla', 'cout': 5,},
 
@@ -166,8 +166,8 @@ coureurs = {
 'Victor Campenaerts': {'equipe' : 'Lotto Dstny', 'cout': 11,},
 'Brent Van Moer': {'equipe' : 'Lotto Dstny', 'cout': 9,},
 'Harm Vanhoucke': {'equipe' : 'Lotto Dstny', 'cout': 8,},
-'Jarrad Eriks Drizners': {'equipe' : 'Lotto Dstny', 'cout': 6,},
-'Cédric Beullens': {'equipe' : 'Lotto Dstny', 'cout': 6,},
+'Jarrad Drizners': {'equipe' : 'Lotto Dstny', 'cout': 6,},
+'Cedric Beullens': {'equipe' : 'Lotto Dstny', 'cout': 6,},
 'Sébastien Grignard': {'equipe' : 'Lotto Dstny', 'cout': 5,},
 
 'Mark Cavendish': {'equipe' : 'Astana Qazaqstan Team', 'cout': 15,},
