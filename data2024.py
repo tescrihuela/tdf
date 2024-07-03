@@ -63,7 +63,7 @@ coureurs = {
 'Nikias Arndt': {'equipe' : 'Bahrain Victorious ', 'cout': 5,},
 
 'Primoz Roglic': {'equipe' : 'Bora - Hansgrohe', 'cout': 21,},
-'Alexandr Vlasov': {'equipe' : 'Bora - Hansgrohe', 'cout': 18,},
+'Aleksandr Vlasov': {'equipe' : 'Bora - Hansgrohe', 'cout': 18,},
 'Jai Hindley': {'equipe' : 'Bora - Hansgrohe', 'cout': 17,},
 'Matteo Sobrero': {'equipe' : 'Bora - Hansgrohe', 'cout': 11,},
 'Danny van Poppel': {'equipe' : 'Bora - Hansgrohe', 'cout': 11,},
